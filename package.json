@@ -1,10 +1,10 @@
 {
-  "name": "watsonworkspace-starter",
+  "name": "watsonworkspace-todo",
   "version": "1.0.1",
-  "description": "An IBM Watson Workspace starter bot",
+  "description": "An IBM Watson Workspace todo list bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "jasmine",
     "dev": "concurrently \"node ngrok.js\" \"nodemon ./index.js\""
   },
